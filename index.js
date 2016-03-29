@@ -8,5 +8,6 @@
 'use strict';
 
 module.exports = function() {
+  // Regex is modified from the split device regex in the node.js path module.
   return /^([a-zA-Z]:|[\\\/]{2}[^\\\/]+[\\\/]+[^\\\/]+)?([\\\/])?/;
 };
