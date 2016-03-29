@@ -19,20 +19,28 @@
   "scripts": {
     "test": "mocha"
   },
-  "dependencies": {},
   "devDependencies": {
     "gulp-format-md": "^0.1.7",
     "mocha": "^2.4.5"
   },
   "keywords": [
+    "detect",
+    "expression",
+    "file",
+    "filepath",
+    "match",
+    "parse",
     "path",
     "regex",
-    "root"
+    "regexp",
+    "regular",
+    "root",
+    "test"
   ],
   "verb": {
     "run": true,
     "toc": false,
-    "layout": "default",
+    "layout": false,
     "tasks": [
       "readme"
     ],
@@ -40,8 +48,8 @@
       "gulp-format-md"
     ],
     "related": {
+      "highlight": "path-root",
       "list": [
-        "path-root",
         "parse-filepath",
         "is-absolute"
       ]
