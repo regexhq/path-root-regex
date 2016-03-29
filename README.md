@@ -2,13 +2,7 @@
 
 > Regular expression for getting the root of a posix or windows filepath.
 
-## Install
-
-Install with [npm](https://www.npmjs.com/):
-
-```sh
-$ npm install path-root-regex --save
-```
+You might also be interested in [path-root](https://github.com/jonschlinkert/path-root).
 
 ## Usage
 
@@ -29,25 +23,10 @@ You might also be interested in these projects:
 
 * [is-absolute](https://www.npmjs.com/package/is-absolute): Polyfill for node.js `path.isAbolute`. Returns true if a file path is absolute. | [homepage](https://github.com/jonschlinkert/is-absolute)
 * [parse-filepath](https://www.npmjs.com/package/parse-filepath): Parse a filepath into an object. Falls back on the native node.js `path.parse` method if… [more](https://www.npmjs.com/package/parse-filepath) | [homepage](https://github.com/jonschlinkert/parse-filepath)
-* [path-root](https://www.npmjs.com/package/path-root): Get the root of a posix or windows filepath. | [homepage](https://github.com/jonschlinkert/path-root)
 
 ## Contributing
 
 Pull requests and stars are always welcome. For bugs and feature requests, [please create an issue](https://github.com/jonschlinkert/path-root-regex/issues/new).
-
-## Building docs
-
-Generate readme and API documentation with [verb](https://github.com/verbose/verb):
-
-```sh
-$ npm install verb && npm run docs
-```
-
-Or, if [verb](https://github.com/verbose/verb) is installed globally:
-
-```sh
-$ verb
-```
 
 ## Running tests
 
