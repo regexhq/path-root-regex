@@ -1,0 +1,49 @@
+{
+  "name": "path-root-regex",
+  "description": "Regular expression for getting the root of a posix or windows filepath.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/path-root-regex",
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "jonschlinkert/path-root-regex",
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/path-root-regex/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "gulp-format-md": "^0.1.7",
+    "mocha": "*"
+  },
+  "keywords": [
+    "path",
+    "regex",
+    "root"
+  ],
+  "verb": {
+    "run": true,
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "reflinks": [
+      "verb"
+    ],
+    "lint": {
+      "reflinks": true
+    }
+  }
+}
